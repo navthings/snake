@@ -5,7 +5,7 @@ A clean, minimal terminal snake game, in the spirit of Emacs' `snake.el`.
 ## Install
 
 ```
-brew install navthings/tap/snake-game
+brew trust navthings/tap && brew install navthings/tap/snake
 ```
 
 or from source:
