@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snake-game"
+version = "1.0.0"
+description = "A clean, minimal terminal snake game"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "navthings" }]
+keywords = ["snake", "terminal", "game", "curses", "tui"]
+classifiers = [
+    "Environment :: Console :: Curses",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment :: Arcade",
+]
+
+[project.urls]
+Homepage = "https://github.com/navthings/snake-game"
+
+[project.scripts]
+snake = "snake_game.app:run"
+
+[tool.setuptools.packages.find]
+include = ["snake_game*"]
