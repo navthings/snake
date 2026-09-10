@@ -1,4 +1,4 @@
-# snake-game
+# snake
 
 A clean, minimal terminal snake game, in the spirit of Emacs' `snake.el`.
 
