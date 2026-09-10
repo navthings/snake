@@ -2,6 +2,12 @@
 
 A clean, minimal terminal snake game, in the spirit of Emacs' `snake.el`.
 
+
+
+https://github.com/user-attachments/assets/0bfa431b-80a9-4c77-8281-89b4267a04e4
+
+
+
 ## Install
 
 ```
