@@ -9,7 +9,7 @@ description = "A clean, minimal terminal snake game"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "navthings" }]
+authors = [{ name = "Your Name" }]
 keywords = ["snake", "terminal", "game", "curses", "tui"]
 classifiers = [
     "Environment :: Console :: Curses",
@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/navthings/snake-game"
+Homepage = "https://github.com/yourname/snake-game"
 
 [project.scripts]
 snake = "snake_game.app:run"
