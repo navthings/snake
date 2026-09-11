@@ -2,9 +2,8 @@ class SnakeGame < Formula
   include Language::Python::Virtualenv
 
   desc "Clean, minimal terminal snake game"
-  homepage "https://github.com/yourname/snake-game"
-  url "https://github.com/yourname/snake-game/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  url "https://github.com/navthings/snake-game/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "74aee1fcf28a29924821f16de81bb8767acfb8ddfa18920b57aa9d133aa0556e"
   license "MIT"
 
   depends_on "python@3.12"
