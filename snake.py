@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-"""
-snake.py — a fast, lightweight, and aesthetic terminal snake game.
-
-Single-file build of https://github.com/navthings/snake
-(merges __init__.py / game.py / render.py / store.py / app.py into one module).
-
-Controls:
-  arrows / hjkl / wasd   move
-  p                      pause / resume
-  q / Esc                quit
-  r                      restart (game over screen)
-
-High score is saved between sessions to ~/.local/share/snake-game/highscore.json
-
-Run:
-  python3 snake.py
-"""
 from __future__ import annotations
 
 import curses
