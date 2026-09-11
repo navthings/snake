@@ -2,15 +2,12 @@
 
 A clean, minimal terminal snake game, in the spirit of Emacs' `snake.el`.
 
-<<<<<<< HEAD
 
 
 https://github.com/user-attachments/assets/0bfa431b-80a9-4c77-8281-89b4267a04e4
 
 
-=======
-Single-file build: the whole game lives in `snake.py`, no package directory.
->>>>>>> 1b82a6b (vim keybinds)
+the official snake game used in dusky https://github.com/dusklinux/dusky
 
 ## Install
 
